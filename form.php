@@ -25,10 +25,26 @@
             value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'Subhead', true ) ); ?>">
     </p>
     <p class="meta-options hcf_field">
-        <label for="External-Link">link</label>
-        <input id="External-Link"
+        <label for="Company">Company</label>
+        <input id="Company"
             type="text"
-            name="External-Link"
-            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'External-Link', true ) ); ?>">
+            name="Company"
+            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'Company', true ) ); ?>">
+    </p>
+
+    <p class="meta-options hcf_field">
+        <label for="Location">Location</label>
+        <input id="Location"
+            type="text"
+            name="Location"
+            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'Location', true ) ); ?>">
+    </p>
+
+    <p class="meta-options hcf_field">
+        <label for="Year">Year</label>
+        <input id="Year"
+            type="text"
+            name="Year"
+            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'Year', true ) ); ?>">
     </p>
 </div>

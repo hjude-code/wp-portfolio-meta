@@ -39,7 +39,9 @@ function hcf_save_meta_box( $post_id ) {
     $fields = [
         'Headline',
         'Subhead',
-        'External-Link',
+        'Company',
+        'Location',
+        'Year'
     ];
     foreach ( $fields as $field ) {
         if ( array_key_exists( $field, $_POST ) ) {
